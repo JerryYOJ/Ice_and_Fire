@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Run a command
-      run: ls && chmod +x ./gradlew
+      run: ls -a
     
     - uses: actions/checkout@v3
     - name: Set up JDK 11
